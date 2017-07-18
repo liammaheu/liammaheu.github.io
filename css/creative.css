@@ -148,7 +148,7 @@ aside {
 }
 header {
   position: relative;
-  width: 100%;
+  width: fixed;
   min-height: auto;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -160,7 +160,7 @@ header {
   color: white;
 }
 header .header-content {
-  position: relative;
+  position: fixed;
   text-align: center;
   padding: 100px 15px 100px;
   width: 100%;
