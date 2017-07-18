@@ -148,19 +148,19 @@ aside {
 }
 header {
   position: relative;
-  width: fixed;
+  width: auto;
   min-height: auto;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  background-position: center;
+  background-position: auto;
   background-image: url('../img/header.jpg');
   text-align: center;
   color: white;
 }
 header .header-content {
-  position: fixed;
+  position: relative;
   text-align: center;
   padding: 100px 15px 100px;
   width: 100%;
